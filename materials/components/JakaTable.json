@@ -15,8 +15,6 @@
   "npm": {
     "package": "jaka-node-red-control",
     "version": "0.0.8",
-    "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-    "css": "",
     "dependencies": null,
     "destructuring": true,
     "exportName": "Table"

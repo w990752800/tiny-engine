@@ -17218,24 +17218,10 @@
         "npm": {}
       },
       {
-        "component": "Button",
-        "npm": {
-          "package": "ant-design-vue",
-          "version": "4.1.2",
-          "script": "https://unpkg.com/ant-design-vue@4.1.2/dist/antd.esm.js",
-          "css": "https://unpkg.com/ant-design-vue@4.1.2/dist/reset.css",
-          "dependencies": null,
-          "destructuring": true,
-          "exportName": "Button"
-        }
-      },
-      {
         "component": "NodeRedControl",
         "npm": {
           "package": "jaka-node-red-control",
-          "version": "0.0.7",
-          "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-          "css": "",
+          "version": "0.0.8",
           "dependencies": null,
           "destructuring": true,
           "exportName": "NodeRedControl"
@@ -17246,23 +17232,18 @@
         "npm": {
           "package": "jaka-node-red-control",
           "version": "0.0.8",
-          "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-          "css": "",
           "dependencies": null,
           "destructuring": true,
           "exportName": "Table"
         }
       },
       {
-        "component": "Button1",
+        "component": "Button",
         "npm": {
           "package": "jaka-node-red-control",
-          "version": "0.0.8",
-          "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-          "css": "",
-          "dependencies": null,
-          "destructuring": true,
-          "exportName": "Button"
+          "exportName": "Button",
+          "version": "",
+          "destructuring": true
         }
       },
       {

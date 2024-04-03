@@ -4,7 +4,7 @@
   "name": {
     "zh_CN": "jaka测试btn"
   },
-  "component": "Button1",
+  "component": "Button",
   "icon": "button",
   "description": "常用的操作按钮",
   "doc_url": "",
@@ -14,12 +14,9 @@
   "dev_mode": "proCode",
   "npm": {
     "package": "jaka-node-red-control",
-    "version": "0.0.8",
-    "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-    "css": "",
-    "dependencies": null,
-    "destructuring": true,
-    "exportName": "Button"
+    "exportName": "Button",
+    "version": "",
+    "destructuring": true
   },
   "group": "基础组件",
   "category": "jaka-node-red-control",
@@ -334,11 +331,11 @@
   "snippets": [
     {
       "name": {
-        "zh_CN": "按钮"
+        "zh_CN": "jaka测试btn"
       },
       "icon": "button",
       "screenshot": "",
-      "snippetName": "Button1",
+      "snippetName": "Button",
       "schema": {
         "children": [
           {

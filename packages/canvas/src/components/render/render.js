@@ -30,8 +30,6 @@ import {
 } from '../builtin'
 import { NODE_UID as DESIGN_UIDKEY, NODE_TAG as DESIGN_TAGKEY, NODE_LOOP as DESIGN_LOOPID } from '../common'
 
-import * as JakaComponent from 'jaka-node-red-control/jaka-ui/jaka-ui'
-
 const { BROADCAST_CHANNEL } = constants
 const { hyphenateRE } = utils
 const customElements = {}
@@ -72,14 +70,6 @@ const Mapper = {
   CanvasRowColContainer,
   CanvasPlaceholder
 }
-
-Object.entries(JakaComponent).forEach(([_key, component]) => {
-  console.log('component=>', component)
-  const { name } = component
-  if (name && component) {
-    window.TinyLowcodeComponent[name] = component
-  }
-})
 
 const { post } = useBroadcastChannel({ name: BROADCAST_CHANNEL.Notify })
 

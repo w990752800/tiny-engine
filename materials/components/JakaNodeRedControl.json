@@ -14,9 +14,7 @@
   "dev_mode": "proCode",
   "npm": {
     "package": "jaka-node-red-control",
-    "version": "0.0.7",
-    "script": "https://unpkg.com/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js",
-    "css": "",
+    "version": "0.0.8",
     "dependencies": null,
     "destructuring": true,
     "exportName": "NodeRedControl"
