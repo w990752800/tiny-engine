@@ -37,7 +37,8 @@
     "@opentiny/vue-renderless": "~3.10.0",
     "@vue/babel-plugin-jsx": "1.1.1",
     "@vue/shared": "^3.3.4",
-    "@vueuse/core": "^9.6.0"
+    "@vueuse/core": "^9.6.0",
+    "jaka-node-red-control": "^0.0.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

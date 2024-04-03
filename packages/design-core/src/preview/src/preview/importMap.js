@@ -43,6 +43,10 @@ importMap.imports = {
   '@opentiny/tiny-engine-builtin-component': `${VITE_CDN_DOMAIN}/@opentiny/tiny-engine-builtin-component@1/dist/index.js`,
   'vue-demi': `${VITE_CDN_DOMAIN}/vue-demi@0.13.11/lib/index.mjs`,
   pinia: `${VITE_CDN_DOMAIN}/pinia@2.0.22/dist/pinia.esm-browser.js`,
+
+  'jaka-node-red-control/': `${VITE_CDN_DOMAIN}/jaka-node-red-control@0.0.8/`,
+  'jaka-node-red-control': `${VITE_CDN_DOMAIN}/jaka-node-red-control@0.0.8/jaka-ui/jaka-ui.js`,
+
   ...tinyVue3Imports,
   ...getSearchParams().scripts
 }
